@@ -1,0 +1,1 @@
+package{	import flash.display.*;	import fl.controls.Button;	public class Demo4 extends Sprite 	{		private var square:Square;		private var button:Button;				public function Demo4()		{			square = new Square();			square.x = 200;			square.y = 100;			addChild( square );						button = new Button();			button.x = 200;			button.y = 250;			addChild( button );		}	}}
